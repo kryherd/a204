@@ -4,7 +4,7 @@ Hi! Welcome to my A204 repository. It contains all of the work I did for A204 (t
 
 ## Point-Light Behavioral Version
 
-This experiment was a behavioral version of the AV integration task. It was run at SCSU in Spring 2019. For an overview of this project, click [here](./AVIntegration/README.md).
+This experiment was a behavioral version of the AV integration task. It was run at SCSU in Spring 2019. For an overview of this project, click [here](./tree/master/AVIntegration).
 
 ## HeARS Behavioral Pilot
 
