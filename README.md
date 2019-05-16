@@ -8,7 +8,7 @@ This experiment was a behavioral version of the AV integration task. It was run 
 
 ## HeARS Behavioral Pilot
 
-This experiment is a behavioral pilot of the HeARS app, just to get a sense for how children in the target age range complete the task. For more information, click [here](./HEARS/README.md).
+This experiment is a behavioral pilot of the HeARS app, just to get a sense for how children in the target age range complete the task. For more information, click [here](https://github.com/kryherd/a204/tree/master/HEARS).
 
 ### Need Help?
 

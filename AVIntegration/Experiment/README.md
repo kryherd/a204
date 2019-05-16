@@ -1,4 +1,4 @@
-# Audio-Visual Integration
+# Audio-Visual Integration Experiment
 
 In this folder you will find everything you need to run the PsychoPy behavioral AV integration experiment.
 

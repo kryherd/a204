@@ -1,0 +1,55 @@
+Subject	Trial	StimType	StimCategory	Stimulus	KEY	Rating	RT
+30	1	standard	PL	ba_base_pl_w288.avi	3	Weak	2.153
+30	2	standard	PL	ba_base_pl_w288.avi	3	Weak	1.651
+30	3	oddball	PIX	ba_redu_pix_w960.avi	2	Medium	1.624
+30	4	oddball	PL	ba_redu_pl_w288.avi	2	Medium	1.500
+30	5	oddball	PIX	ba_redu_pix_w960.avi	3	Weak	1.351
+30	6	oddball	AV	ba_redu_face_w960.avi	1	Strong	1.543
+30	7	oddball	PIX	ba_redu_pix_w960.avi	1	Strong	1.420
+30	8	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.490
+30	9	standard	AV	ba_base_face_w960.avi	2	Medium	1.916
+30	10	oddball	AV	ba_redu_face_w960.avi	1	Strong	1.491
+30	11	standard	PL	ba_base_pl_w288.avi	1	Strong	1.723
+30	12	standard	AV	ba_base_face_w960.avi	1	Strong	1.496
+30	13	oddball	PIX	ba_redu_pix_w960.avi	2	Medium	2.237
+30	14	standard	AV	ba_base_face_w960.avi	3	Weak	1.583
+30	15	standard	PIX	ba_base_pix_w960.avi	3	Weak	1.630
+30	16	oddball	AV	ba_redu_face_w960.avi	4	No B	1.773
+30	17	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.506
+30	18	standard	PL	ba_base_pl_w288.avi	1	Strong	1.594
+30	19	standard	PL	ba_base_pl_w288.avi	1	Strong	1.532
+30	20	standard	PIX	ba_base_pix_w960.avi	1	Strong	1.464
+30	21	standard	AV	ba_base_face_w960.avi	1	Strong	1.496
+30	22	standard	PIX	ba_base_pix_w960.avi	1	Strong	1.706
+30	23	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.678
+30	24	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.449
+30	25	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.240
+30	26	standard	PL	ba_base_pl_w288.avi	3	Weak	1.209
+30	27	oddball	PIX	ba_redu_pix_w960.avi	3	Weak	1.614
+30	28	oddball	PIX	ba_redu_pix_w960.avi	1	Strong	1.737
+30	29	standard	AV	ba_base_face_w960.avi	1	Strong	1.487
+30	30	standard	PL	ba_base_pl_w288.avi	1	Strong	1.408
+30	31	standard	PIX	ba_base_pix_w960.avi	1	Strong	1.327
+30	32	standard	AV	ba_base_face_w960.avi	1	Strong	1.575
+30	33	standard	PL	ba_base_pl_w288.avi	1	Strong	1.526
+30	34	oddball	AV	ba_redu_face_w960.avi	3	Weak	1.667
+30	35	standard	PL	ba_base_pl_w288.avi	1	Strong	1.595
+30	36	oddball	PIX	ba_redu_pix_w960.avi	3	Weak	1.446
+30	37	oddball	PL	ba_redu_pl_w288.avi	2	Medium	1.424
+30	38	standard	PIX	ba_base_pix_w960.avi	1	Strong	2.009
+30	39	oddball	AV	ba_redu_face_w960.avi	3	Weak	1.647
+30	40	standard	AV	ba_base_face_w960.avi	2	Medium	1.835
+30	41	standard	AV	ba_base_face_w960.avi	2	Medium	1.842
+30	42	oddball	PL	ba_redu_pl_w288.avi	1	Strong	1.473
+30	43	standard	PIX	ba_base_pix_w960.avi	1	Strong	1.533
+30	44	standard	PIX	ba_base_pix_w960.avi	2	Medium	1.658
+30	45	oddball	AV	ba_redu_face_w960.avi	1	Strong	1.504
+30	46	oddball	PIX	ba_redu_pix_w960.avi	1	Strong	1.586
+30	47	oddball	PIX	ba_redu_pix_w960.avi	4	No B	1.613
+30	48	oddball	AV	ba_redu_face_w960.avi	4	No B	1.687
+30	49	standard	AV	ba_base_face_w960.avi	1	Strong	1.357
+30	50	oddball	AV	ba_redu_face_w960.avi	4	No B	1.464
+30	51	standard	PIX	ba_base_pix_w960.avi	1	Strong	2.057
+30	52	oddball	AV	ba_redu_face_w960.avi	4	No B	1.755
+30	53	oddball	PL	ba_redu_pl_w288.avi	3	Weak	1.975
+30	54	standard	PIX	ba_base_pix_w960.avi	3	Weak	1.995
