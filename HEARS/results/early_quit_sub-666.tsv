@@ -1,0 +1,6 @@
+Subject	StimType	Trial	Sound	SpeakerGender	TargetImage	Foil1	Foil2	Foil3	CorImgLoc	RespKey	ACC	RT
+666	practice	1	zoo	Male	zoo	two	zip	camp	up	space	0	-0.016
+666	practice	2	sick	Female	sick	brick	sack	dirt	up	up	1	1.519
+666	practice	3	third	Female	third	bird	think	bear	down	down	1	1.331
+666	practice	4	van	Female	van	pan	vase	ant	up	left	0	1.994
+666	practice	5	lamp	Male	lamp	camp	leaf	brick	down	none	0	999.000
