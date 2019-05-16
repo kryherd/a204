@@ -1,12 +1,13 @@
 # Audio-Visual Integration
 
-This folder contains the behavioral PsychoPy version of the AV Integration experiment (for more info on the paradigm, see [Irwin et al., (2016)](https://asa.scitation.org/doi/abs/10.1121/1.4971110) and [Irwin et al., (2018)](http://booksandjournals.brillonline.com/content/journals/10.1163/22134808-00002580).
+In this folder you will find everything you need to run the PsychoPy behavioral AV integration experiment.
 
 ### Contents:
 * `AV_Int_pointLight.py` - this is the PsychoPy experiment.
 * `audio` - contains audio files
 * `video` - contains video files
 * `stim` - contains stimulus files. If you want to change which videos appear, look at the files in here.
+* `results` - as data is collected, it will show up here.
 
 ## Experiment Structure
 
@@ -14,9 +15,9 @@ The experiment runs through tasks 1 and 2 continuously. You can take a break by 
 
 ### Task 1: Audio-visual integration, 2-alternative forced choice
 
-This task has 3 blocks of 100 trials each. In each block, 50 trials have the `ba_base` sound and the other 50 have the `ba_redu` sound. Each block has only one type of stimulus (AV/face, PIX/pixelated face, or PL/point-light).
+This task has 3 blocks of 100 trials each. In each block, 50 trials have the `ba_base` sound and the other 50 have the `ba_redu` sound. Each block has only one type of stimulus (AV/face, PIX/pixelated face, or PL/point-light). Blocks are counterbalanced manually across subjects.
 
-Participants respond to each stimulus by pressing either `f` or `j` to indicate which sound they heard.
+Participants respond to each stimulus by pressing either `f` or `j` to indicate which sound they heard. Participants have the entire duration of the video plus 500ms to respond.
 
 Results files for this task are labeled `AVINt_2AFC_sub-XXXX.csv`.
 
@@ -30,9 +31,9 @@ Results files for this task are labeled `AVInt_goodness_sub-XXXX.csv`.
 
 ## How to Run
 
-0. Make sure you have [PsychoPy](http://psychopy.org/installation.html) up an running on your computer. This will include installing Python 2.7.   
-1. Download the `misc` respository by going to [this](https://github.com/kryherd/misc) page and clicking Clone or Download (green button).
-2. Copy the `AVIntegration` folder into your desired location. (You can delete the other folders).
+0. Make sure you have [PsychoPy](http://psychopy.org/installation.html) up and running on your computer. This will include installing Python 3.6.   
+1. Download the `a204` respository by going to [this](https://github.com/kryherd/a204) page and clicking Clone or Download (green button).
+2. Copy the `Experiment` folder (under `AVIntegration`) into your desired location. You can delete the other folders.
 3. Open PsychoPy.
 4. Click View > Open Coder View.
 5. Click File > Open... and select the `AV_Int_pointLight.py` file.
@@ -69,7 +70,7 @@ If you pick an order that is not 1-6, you'll see the error below and the experim
 8. From there the experiment should run pretty smoothly. Read through the instructions with the participant.
 9. If at any point you need to quit the experiment unexpectedly, press the `ESCAPE` key. This will stop after the next trial. The data you have collected so far will be saved as `early_quit_sub-XXXX.csv`. This only works during the actual trials, not during instruction screens.
 
-Contact me at [kayleigh.ryherd@uconn.edu](mailto:kayleigh.ryherd@uconn.edu) if you have any issues.
+Contact me at [kayleigh.ryherd@gmail.com](mailto:kayleigh.ryherd@gmail.com) if you have any issues.
 
 ## Troubleshooting
 
