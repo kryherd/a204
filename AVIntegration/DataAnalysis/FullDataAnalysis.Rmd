@@ -162,7 +162,11 @@ model.full <- glmer(ACC ~ 1 + # intercept
                     family="binomial", # binomial, since ACC is either 1 or 0
                     data=twoafc, # set data
                     control=glmerControl(optimizer='bobyqa', optCtrl=list(maxfun=1e5)), verbose=2) # ways to optimize the function
+```
 
+The following models are the same as the full model with certain components taken out. We will use these models to check the significance of the components.
+
+```{r}
 model.noSC <- glmer(ACC ~ 1 + 
                       StimType1 + # no main effect of stim category
                       (StimCategory1 + StimCategory2):StimType1 + 
@@ -182,7 +186,10 @@ model.noInt <- glmer(ACC ~ 1 +
                        (1 + (StimCategory1 + StimCategory2) * StimType1 | Subject), 
                      family="binomial", data=twoafc, 
                      control=glmerControl(optimizer='bobyqa', optCtrl=list(maxfun=1e5)), verbose=2)
+```
 
+
+```{r}
 anova(model.noSC,  model.full)   # main effect of StimCategory:            ChiSq(1) = , p = .
 anova(model.noST,  model.full)   # main effect of StimType:                ChiSq(2) = , p = .
 anova(model.noInt, model.full)   # main effect of StimCategory:StimType:   ChiSq(2) = , p = .
